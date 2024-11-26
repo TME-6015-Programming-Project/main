@@ -1,0 +1,21 @@
+{
+    "parameters": {
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "epochs": 500,
+        "structure": [
+            64,
+            32,
+            16,
+            1
+        ]
+    },
+    "results": {
+        "loss": 0.2566382884979248,
+        "mae": 0.40121695399284363,
+        "root_mean_squared_error": 0.5065947771072388,
+        "val_loss": 0.024922814220190048,
+        "val_mae": 0.11294245719909668,
+        "val_root_mean_squared_error": 0.1578696072101593
+    }
+}
